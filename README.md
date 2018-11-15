@@ -5,15 +5,15 @@ final-Yuminglu created by GitHub Classroom
 
 <p>It is a portfolio website which collects and presents all of my projects and works.</p>
 
-<h2>component</h2>
+<h2>Component</h2>
 <ul>
    <li>About Me</li>
    <li>Projects</li>
-   <li2>Visuals</li2>
-   <li3>Stills</li3>
-   <li3>Motions</li3>
-   <li2>Sounds</li2>
-   <li2>Web Development</li2>
+   <li>Visuals</li>
+   <li>Stills</li>
+   <li>Motions</li>
+   <li>Sounds</li>
+   <li>Web Development</li>
 </ul>
 
 <h2>Tech Component</h2>
