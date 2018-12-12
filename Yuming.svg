@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 443 127">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        font-size: 100px;
+        font-family: CocogoosePro-Italic, Cocogoose Pro;
+        font-style: italic;
+      }
+
+      .cls-2 {
+        fill: #040000;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: rgba(0,0,0,0.99);
+      }
+    </style>
+  </defs>
+  <g id="符号_2_1" data-name="符号 2 – 1" transform="translate(-265.671 -354.481)">
+    <text id="Yuming" class="cls-1" transform="translate(265.671 455.481)"><tspan x="0" y="0">Y</tspan><tspan class="cls-2" y="0">u</tspan><tspan y="0">ming</tspan></text>
+    <text id="Yuming-2" data-name="Yuming" class="cls-3" transform="translate(275.671 456.481)"><tspan x="0" y="0">Y</tspan><tspan class="cls-2" y="0">u</tspan><tspan y="0">ming</tspan></text>
+  </g>
+</svg>

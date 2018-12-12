@@ -1,0 +1,285 @@
+@font-face {
+	font-family: 'Cocogoose Pro Thin Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Cocogoose Pro Thin Italic'), url('fonts/Cocogoose Pro Thin Italic Trial.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Cocogoose Pro Light Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Cocogoose Pro Light Italic'), url('fonts/Cocogoose Pro Light Italic Trial.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Cocogoose Pro SemiLight Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Cocogoose Pro SemiLight Italic'), url('fonts/Cocogoose Pro SemiLight Italic Trial.woff') format('woff');
+}
+
+body {
+	height: 100%;
+	cursor: url("icon.png"), auto;
+}
+
+.top,
+.nave-bar-phone,
+.text_phone, 
+.text_phone2,
+.instagram_phone{
+	display: none;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 93% 5%;
+	height: 100vh;
+	padding: 10px;
+}
+
+.nave-bar {
+	display: grid;
+	grid-template-rows: 40% 20% 20% 15%;
+	border-left: 1px solid black;
+	text-align: right;
+	font-style: oblique;
+}
+
+
+.projects {
+	writing-mode: vertical-rl;
+	text-align: left;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 23px;
+	padding-right: 25px;
+	padding-top: 15px;
+}
+
+.projects:hover {
+	font-size: 30px;
+	color: #E0A794;
+	cursor: url("iconbig.png"), auto;
+}
+
+
+.back {
+	writing-mode: vertical-rl;
+	text-align: left;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 23px;
+	padding-right: 25px;
+	color: #E0A794;
+}
+
+.about {
+	writing-mode: vertical-rl;
+	text-align: right;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 30px;
+	padding-right: 25px;
+	font-style: oblique;
+	color: #E0A794;
+}
+
+.home {
+	writing-mode: vertical-rl;
+	text-align: right;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 23px;
+	padding-right: 25px;
+}
+
+.home:hover {
+	font-size: 30px;
+	color: #E0A794;
+	cursor: url("iconbig.png"), auto;
+}
+
+
+.wave {
+	position: static;
+	margin-top: -50px;
+	margin-left: -10px;
+}
+
+.text {
+	position: static;
+	font-size: 30px;
+	margin-left: 80px;
+	margin-top: 90px;
+	margin-right: 80px;
+}
+
+.text_thin {
+	font-family: 'Cocogoose Pro Thin Italic';
+}
+
+.text_bold {
+	font-family: 'Cocogoose Pro Light Italic';
+}
+
+.text_superbold {
+	font-family: 'Cocogoose Pro SemiLight Italic';
+}
+
+.text_thin_start {
+	font-family: 'Cocogoose Pro Thin Italic';
+	margin-top: 20px;
+}
+
+.instagram {
+	position: fixed;
+	margin-top: 680px;
+	margin-left: 640px;
+}
+
+.instagram:hover {
+	cursor: url("iconbig.png"), auto;
+}
+
+a:link {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #E0A794;
+	background-color: transparent;
+	text-decoration: none;
+	cursor: url("iconbig.png"), auto;
+}
+
+a:active {
+	color: #E0A794;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
+	.nave-bar {
+		display: none;
+	}
+
+	h1 {
+		margin-top: 700px;
+		font-size: 120px;
+	}
+
+	hr {
+		margin-right: -570px;
+		color: dimgrey;
+	}
+
+	.top {
+		display: block;
+		position: absolute;
+		margin-top: -70px;
+		margin-left: -20px;
+	}
+
+	.nave-bar-phone {
+		display: block;
+		border-bottom: 1px solid black;
+	}
+
+	.home_phone {
+		display: block;
+		position: fixed;
+		font-family: 'Tajawal', sans-serif;
+		font-size: 90px;
+		margin-left: -800px;
+		margin-top: 370px;
+		font-style: oblique;
+	}
+
+	.about_phone {
+		display: block;
+		position: fixed;
+		font-family: 'Tajawal', sans-serif;
+		font-size: 90px;
+		margin-left: -420px;
+		margin-top: 370px;
+		font-style: oblique;
+	}
+
+	.back_phone {
+		display: block;
+		position: fixed;
+		font-family: 'Tajawal', sans-serif;
+		font-size: 90px;
+		margin-left: 0px;
+		margin-top: 370px;
+		font-style: oblique;
+		color: #E0A794;
+	}
+
+	.projects_phone {
+		display: block;
+		position: fixed;
+		font-family: 'Tajawal', sans-serif;
+		font-size: 90px;
+		margin-left: 200px;
+		margin-top: 370px;
+		font-style: oblique;
+	}
+	
+	.text, .instagram{
+		display: none;
+	}
+	
+	.text_thin_underline {
+	font-family: 'Cocogoose Pro Thin Italic';
+	text-decoration: underline;
+}
+	
+.text_phone{
+	display: block;
+	font-size: 78px;
+	margin-top: 700px;
+	margin-left: 80px;
+	width: 1000px;
+}
+	.text_phone2{
+	display: block;
+	font-size: 78px;
+	margin-top: 200px;
+	margin-left: 80px;
+	width: 2000px;
+}
+	.circle-yellow1{
+  background: #CDBE3E;
+  border-radius: 95px;
+  height: 95px;
+  width: 95px;
+  position: absolute;
+  margin-left:80px;  
+  margin-top:280px;
+}
+		.circle-purple1{
+  display: block;
+  background: #C6C6DE;
+  border-radius: 95px;
+  height: 95px;
+  width: 95px;
+  position: absolute;
+  margin-left:210px;  
+  margin-top:280px;
+}
+  .instagram{
+		display: none;
+	}
+	
+	  .instagram_phone{
+		display: block;
+		  margin-left: 1150;
+		  margin-top:272px;
+	}
