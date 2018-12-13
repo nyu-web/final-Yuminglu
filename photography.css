@@ -1,0 +1,374 @@
+@font-face {
+	font-family: 'Cocogoose Pro Thin Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Cocogoose Pro Thin Italic'), url('fonts/Cocogoose Pro Thin Italic Trial.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Cocogoose Pro Light Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Cocogoose Pro Light Italic'), url('fonts/Cocogoose Pro Light Italic Trial.woff') format('woff');
+}
+
+body {
+	height: 100%;
+	cursor: url("icon.png"), auto;
+}
+
+.grid__container {
+	display: grid;
+	grid-template-columns: 93% 5%;
+	height: 100vh;
+	padding: 10px;
+	position: absolute;
+}
+
+.nave__bar {
+	display: grid;
+	grid-template-rows: 40% 20% 20% 15%;
+	border-left: 1px solid black;
+	text-align: right;
+	font-style: oblique;
+	margin-right: 1000px;
+}
+
+.projects {
+	writing-mode: vertical-rl;
+	text-align: left;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 23px;
+	padding-right: 25px;
+	padding-top: 15px;
+	font-size: 30px;
+	color: #E0A794;
+}
+
+.projects:hover {
+	font-size: 30px;
+	color: #E0A794;
+	cursor: url("iconbig.png"), auto;
+}
+
+.back {
+	writing-mode: vertical-rl;
+	text-align: left;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 23px;
+	padding-right: 25px;
+	color: #E0A794;
+}
+
+.about {
+	writing-mode: vertical-rl;
+	text-align: right;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 23px;
+	padding-right: 25px;
+}
+
+.about:hover {
+	font-size: 30px;
+	color: #E0A794;
+	cursor: url("iconbig.png"), auto;
+}
+
+.home {
+	writing-mode: vertical-rl;
+	text-align: right;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 23px;
+	padding-right: 25px;
+}
+
+.home:hover {
+	font-size: 30px;
+	color: #E0A794;
+	cursor: url("iconbig.png"), auto;
+}
+
+.projects__menu {
+	margin-left: 90px;
+	border-left: 1px solid black;
+}
+
+h1 {
+	font-family: 'Cocogoose Pro Light Italic';
+	font-size: 52px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
+h2 {
+	font-family: 'Cocogoose Pro Thin Italic';
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
+.circle__pink {
+	background: #E0A794;
+	border-radius: 30px;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	left: 85px;
+	top: 255px;
+}
+
+
+
+.havana1,
+.havana2,
+.havana3 {
+	position: absolute;
+	display: flex;
+	margin-top: 50px;
+}
+
+.havana1 {
+	margin-left: 250px;
+}
+
+.havana2 {
+	margin-left: 600px;
+}
+
+.havana3 {
+	margin-left: 950px;
+}
+
+
+#myImg {
+	border-radius: 5px;
+	cursor: url("iconbig.png"), auto;
+	transition: 0.3s;
+	margin-left: 260px;
+	width: 17%;
+	position: absolute;
+	margin-top: 320px;
+}
+
+#myImg:hover {
+	opacity: 0.7;
+}
+
+#myImg2 {
+	border-radius: 5px;
+	cursor: url("iconbig.png"), auto;
+	transition: 0.3s;
+	margin-left: 620px;
+	width: 17%;
+	position: absolute;
+	margin-top: 320px;
+}
+
+#myImg2:hover {
+	opacity: 0.7;
+}
+
+#myImg3 {
+	border-radius: 5px;
+	cursor: url("iconbig.png"), auto;
+	transition: 0.3s;
+	margin-left: 975px;
+	width: 17%;
+	position: absolute;
+	margin-top: 320px;
+}
+
+#myImg3:hover {
+	opacity: 0.7;
+}
+
+
+.modal,
+.modal2 {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0px;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: white;
+	background-color: white;
+}
+
+
+.modal__content,
+.modal__content2 {
+	margin: auto;
+	display: block;
+	width: 25%;
+	max-width: 700px;
+}
+
+
+/* Add Animation - Zoom in the Modal */
+.modal__content,
+.modal__content2 {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+	from {
+		transform: scale(0)
+	}
+
+	to {
+		transform: scale(1)
+	}
+}
+
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #E0A794;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	text-decoration: none;
+	cursor: url("iconbig.png"), auto;
+}
+
+@media only screen and (max-width: 700px) {
+	.modal__content {
+		width: 100%;
+	}
+}
+
+a:link {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 30px;
+	color: #E0A794;
+	background-color: transparent;
+	text-decoration: none;
+	cursor: url("iconbig.png"), auto;
+}
+
+a:active {
+	color: #E0A794;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a.back:link {
+	color: #E0A794;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a.back:visited {
+	color: #E0A794;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a.back:hover {
+	font-size: 30px;
+	color: #E0A794;
+	background-color: transparent;
+	text-decoration: none;
+	cursor: url("iconbig.png"), auto;
+}
+
+a.back:active {
+	color: #E0A794;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.top,
+.nave__bar__phone {
+	display: none;
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
+	.nave__bar {
+		display: none;
+	}
+
+	h1 {
+		margin-top: 700px;
+		font-size: 120px;
+	}
+
+	hr {
+		margin-right: -570px;
+		color: dimgrey;
+	}
+
+	.top {
+		display: block;
+		position: absolute;
+		margin-top: -70px;
+		margin-left: -20px;
+	}
+
+	.nave__bar__phone {
+		display: block;
+		border-bottom: 1px solid black;
+	}
+
+	.home__phone {
+		display: block;
+		position: fixed;
+		font-family: 'Tajawal', sans-serif;
+		font-size: 90px;
+		margin-left: -800px;
+		margin-top: 370px;
+		font-style: oblique;
+	}
+
+	.about__phone {
+		display: block;
+		position: fixed;
+		font-family: 'Tajawal', sans-serif;
+		font-size: 90px;
+		margin-left: -420px;
+		margin-top: 370px;
+		font-style: oblique;
+	}
+
+	.back_phone {
+		display: block;
+		position: fixed;
+		font-family: 'Tajawal', sans-serif;
+		font-size: 90px;
+		margin-left: 0px;
+		margin-top: 370px;
+		font-style: oblique;
+		color: #E0A794;
+	}
+
+	.projects__phone {
+		display: block;
+		position: fixed;
+		font-family: 'Tajawal', sans-serif;
+		font-size: 90px;
+		margin-left: 200px;
+		margin-top: 370px;
+		font-style: oblique;
+	}

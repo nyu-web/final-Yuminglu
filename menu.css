@@ -1,0 +1,307 @@
+@font-face {
+font-family: 'Cocogoose Pro SemiLight Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Cocogoose Pro SemiLight Italic'), url('fonts/Cocogoose Pro SemiLight Italic Trial.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Cocogoose Pro Thin Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Cocogoose Pro Thin Italic'), url('fonts/Cocogoose Pro Thin Italic Trial.woff') format('woff');
+}
+
+body {
+  height: 100%;
+  cursor:url("icon.png"),auto;
+}
+
+.top, .nave__bar__phone{
+		display: none;
+	}
+
+.grid__container {
+  display: grid;
+  grid-template-columns: 93% 5%;
+  height: 100vh;  
+  padding: 10px;
+}
+
+.nave__bar{
+  display: grid;
+  grid-template-rows: 40% 20% 20% 15%;
+  border-left: 1px solid black;
+  text-align: right;
+  font-style: oblique;    
+
+}
+  
+.projects{
+    writing-mode: vertical-rl;
+    text-align:left;
+    font-family: 'Tajawal', sans-serif;
+    font-weight:bold;
+    color: #E0A794;
+    font-size: 28px;
+    font-style:oblique;
+    padding-right:25px;
+    padding-top: 15px;
+    margin-left: 2px;
+}
+
+.projects:hover{
+    font-size:30px;
+    color:#E0A794;
+    cursor:url("iconbig.png"),auto;
+}
+
+
+.back{
+    writing-mode: vertical-rl;
+    text-align: left;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 23px;
+    padding-right:25px;
+    color: #E0A794;
+}
+
+.about{
+    writing-mode: vertical-rl;
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 23px;
+    padding-right:25px;
+}
+
+.about:hover{
+    font-size:30px;
+    color:#E0A794;
+    cursor:url("iconbig.png"),auto;
+}
+
+.home{
+    writing-mode: vertical-rl;
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 23px;
+    padding-right:25px;
+}
+
+.home:hover{
+    font-size:30px;
+    color:#E0A794;
+    cursor:url("iconbig.png"),auto;
+}
+
+h1{
+    font-family: 'Cocogoose Pro SemiLight Italic';
+    font-size: 70px;
+    margin-left: 70px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+
+hr{
+    margin-right: 260px;
+    margin-left: 40px;
+    color: dimgrey;
+}
+
+.circle__pink{
+  background: #E0A794;
+  border-radius: 130px;
+  height: 130px;
+  width: 130px;
+  position: fixed;
+  right:150px;  
+  top:30px;
+  animation-name: circle__pink;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes circle__pink{
+    0%{
+       margin-top:30px; 
+       background: #E0A794;
+    }
+    
+    50%{
+       margin-top:530px; 
+       background-image: linear-gradient(#E0A794, white);
+    }
+    
+    100%{
+       margin-top:30px; 
+	   background: #E0A794;
+    }
+}
+
+p{
+    font-family: 'Cocogoose Pro Thin Italic';
+    font-size: 40px;
+    margin-left: 720px;
+    margin-top:15px;
+    margin-bottom: 20px;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  font-size:30px;
+  color: #E0A794;
+  background-color: transparent;
+  text-decoration: none;
+  cursor:url("iconbig.png"),auto;
+}
+a:active {
+  color: #E0A794;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) {
+    .nave__bar{
+  display: none;  
+    }
+	
+	h1{
+		margin-top: 700px;
+		font-size: 120px;
+	}
+	
+	hr{
+    margin-right: -570px;
+    color: dimgrey;
+}
+	    .top{
+  display:block;
+        position: absolute;
+        margin-top: -70px;
+        margin-left: -20px;
+    }
+	
+		.nave__bar__phone{
+		display: block;
+        border-bottom: 1px solid black;
+	}
+	
+	.home__phone{
+	display: block;
+	position: fixed;
+	font-family: 'Tajawal', sans-serif;
+    font-size: 90px;
+	margin-left: -800px;
+	margin-top: 370px;	
+	font-style: oblique;
+	}
+	
+	.about__phone{
+	display: block;
+	position: fixed;
+	font-family: 'Tajawal', sans-serif;
+    font-size: 90px;
+	margin-left: -420px;
+	margin-top: 370px;	
+	font-style: oblique;
+	}
+	
+	.back__phone{
+	display: block;
+	position: fixed;
+	font-family: 'Tajawal', sans-serif;
+    font-size: 90px;
+	margin-left: 0px;
+	margin-top: 370px;	
+	font-style: oblique;
+	color:#E0A794;
+	}
+	
+		.projects__phone{
+	display: block;
+	position: fixed;
+	font-family: 'Tajawal', sans-serif;
+    font-size: 90px;
+	margin-left: 200px;
+	margin-top: 370px;
+	font-style: oblique;
+	}
+	
+	p{
+		margin-top: 40px;
+		font-size: 70px;
+	}
+	
+	.circle__pink{
+		display: none;
+	}
+	
+		.halfcircle__pink {
+  background: #E0A794;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 800px;
+  border-bottom-right-radius: 800px;
+  height: 800px;
+  width: 800px;
+  margin-left: -430px;
+  margin-top: 2300px;
+  position: fixed;
+}
+	
+	.halfcircle__pinkborder {
+  border-color: #E0A794;
+  border-style: solid;
+  border-width: 94px;
+		
+  background: white;
+  border-top-left-radius: 600px;
+  border-bottom-left-radius: 600px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 600px;
+  width: 600px;
+  margin-left: 1050px;
+  margin-top: 1250px;
+  position: fixed;
+}
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) {
+	h1{
+		margin-top: 20px;
+		font-size: 50px;
+	}
+	p{
+		font-size: 20px;
+		margin-left: 450px;
+	}
+	.circle__pink{
+  background-image: linear-gradient(#E0A794, white);
+  border-radius: 130px;
+  height: 130px;
+  width: 130px;
+  position: fixed;
+  right:120px;  
+  top:30px;
+  animation:none !important;
+}
+
+	

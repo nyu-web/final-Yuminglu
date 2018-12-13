@@ -1,0 +1,161 @@
+@font-face {
+font-family: 'Cocogoose Pro Thin Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Cocogoose Pro Thin Italic'), url('fonts/Cocogoose Pro Thin Italic Trial.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Cocogoose Pro Light Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Cocogoose Pro Light Italic'), url('fonts/Cocogoose Pro Light Italic Trial.woff') format('woff');
+}
+
+body {
+  height: 100%;
+  cursor:url("icon.png"),auto;
+}
+.grid__container {
+  display: grid;
+  grid-template-columns: 93% 5%;
+  height: 100vh;  
+  padding: 10px;
+  position: absolute;
+}
+
+.nave__bar{
+  display: grid;
+  grid-template-rows: 40% 20% 20% 15%;
+  border-left: 1px solid black;
+  text-align: right;
+  font-style: oblique;
+  margin-right: 1000px;
+}
+  
+.projects{
+    writing-mode: vertical-rl;
+    text-align:left;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 23px;
+    padding-right:25px;
+    padding-top: 15px;
+    font-size: 30px;
+    color: #E0A794;
+}
+
+.projects:hover{
+    font-size:30px;
+    color:#E0A794;
+    cursor:url("iconbig.png"),auto;
+}
+
+.back{
+    writing-mode: vertical-rl;
+    text-align: left;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 23px;
+    padding-right:25px;
+    color: #E0A794;
+}
+
+.about{
+    writing-mode: vertical-rl;
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 23px;
+    padding-right:25px;
+}
+
+.about:hover{
+    font-size:30px;
+    color:#E0A794;
+    cursor:url("iconbig.png"),auto;
+}
+
+.home{
+    writing-mode: vertical-rl;
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 23px;
+    padding-right:25px;
+}
+
+.home:hover{
+    font-size:30px;
+    color:#E0A794;
+    cursor:url("iconbig.png"),auto;
+}
+
+.projects__menu{
+    margin-left: 90px;
+    border-left: 1px solid black;
+}
+
+.wave {
+    position: static;
+    margin-top: -100px;
+    margin-left: -10px;
+}
+
+.wave2 {
+    position: static;
+    margin-top: 70px;
+    margin-left: -10px;
+}
+
+.video{
+	margin-left: 350px;
+	margin-top:80px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E0A794;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: url("iconbig.png"), auto;
+}
+
+a:active {
+    color: #E0A794;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.back:link {
+  color: #E0A794;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.back:visited {
+  color: #E0A794;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.back:hover {
+  font-size:30px;
+  color: #E0A794;
+  background-color: transparent;
+  text-decoration: none;
+  cursor:url("iconbig.png"),auto;
+}
+
+a.back:active {
+  color: #E0A794;
+  background-color: transparent;
+  text-decoration: none;
+}
